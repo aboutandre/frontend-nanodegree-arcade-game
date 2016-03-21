@@ -15,20 +15,16 @@ Open in any browser:
 The objective here is to cross from the grass to the water ('cause it's a hot day and you wanna stay fresh, right?).
 
 This is you:
-<div markdown style="margin-left: 10%; margin-top: -70px;">
 
 ![Character Boy](https://aboutandre.com/wp-content/uploads/2016/03/char-boy.png)
 
-</div>
 
 But those nasty bugs are keeping you from the water!
 
 Dodge those suckers using the arrow keys:
-<div markdown style="margin-left: 10%;">
 
 ![Arrow Keys](https://aboutandre.com/wp-content/uploads/2016/03/arrowkeys.png)
 
-</div>
 
 
 Once you reach the other side and fresh yourself up the game starts again. But now with even more bugs!

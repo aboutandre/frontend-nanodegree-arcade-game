@@ -11,6 +11,26 @@ Open in any browser:
 
       index.html
 
+## How to play the game
+The objective here is to cross from the grass to the water ('cause it's a hot day and you wanna stay fresh, right?).
+
+This is you:
+<div markdown style="margin-left: 10%; margin-top: -70px;">
+![Character Boy](/images/char-boy.png)
+</div>
+
+But those nasty bugs are keeping you from the water!
+
+Dodge those suckers using the arrow keys:
+<div markdown style="margin-left: 10%;">
+![Arrow Keys](/images/arrowkeys.png)
+</div>
+
+
+Once you reach the other side and fresh yourself up the game starts again. But now with even more bugs!
+
+Show those [Coccinellidae](https://en.wikipedia.org/wiki/Coccinellidae) who is the dodgier of them all and have some fun!
+
 ## Resources used
 #### Stackoverflow
 - [How to add a class to DOM element in JS.](http://stackoverflow.com/questions/1115310/how-to-add-a-class-to-dom-element-in-javascript)

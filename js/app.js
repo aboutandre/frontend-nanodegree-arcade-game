@@ -1,3 +1,5 @@
+'use strict';
+
 // Enemies our player must avoid
 var Enemy = function(x, y, speed) {
   // Variables applied to each of our instances go here,
@@ -22,7 +24,7 @@ Enemy.prototype.update = function(dt) {
     this.resetEnemy();
   }
   // Check for collision with objects or enemies
-  checkCollision(this);
+  this.checkCollision();
 };
 Enemy.prototype.resetEnemy = function() {
   this.col = -1;
@@ -61,29 +63,30 @@ var displayScoreLevel = function(aScore, aLevel) {
   var canvas = document.getElementsByTagName('canvas');
   var firstCanvasTag = canvas[0];
 
-  Player.prototype.handleInput = function(keyPress) {
-    if (keyPress == 'left') {
-      player.x -= player.speed;
-    }
-    if (keyPress == 'up') {
-      player.y -= player.speed;
-    }
-    if (keyPress == 'right') {
-      player.x += player.speed;
-    }
-    if (keyPress == 'down') {
-      player.y += player.speed;
-    }
-  };
   // Creates a div with the score and levels
   scoreLevelDiv.innerHTML = 'Score: ' + aScore + ' / ' + 'Level: ' + aLevel;
   document.body.insertBefore(scoreLevelDiv, firstCanvasTag[0]);
 };
 
+Player.prototype.handleInput = function(keyPress) {
+  if (keyPress == 'left') {
+    this.x -= this.speed;
+  }
+  if (keyPress == 'up') {
+    this.y -= this.speed;
+  }
+  if (keyPress == 'right') {
+    this.x += this.speed;
+  }
+  if (keyPress == 'down') {
+    this.y += this.speed;
+  }
+};
+
 // Checks if player collided with an enemy
-var checkCollision = function(anEnemy) {
-  if (
-    player.y + 131 >= anEnemy.y + 90 && player.x + 25 <= anEnemy.x + 88 && player.y + 73 <= anEnemy.y + 135 && player.x + 76 >= anEnemy.x + 11) {
+Enemy.prototype.checkCollision = function() {
+    if (
+    player.y + 131 >= this.y + 90 && player.x + 25 <= this.x + 88 && player.y + 73 <= this.y + 135 && player.x + 76 >= this.x + 11) {
     player.x = 202.5;
     player.y = 383;
     console.log('Bummer! Those nasty bugs got you!');

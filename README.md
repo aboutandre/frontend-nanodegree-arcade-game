@@ -16,14 +16,14 @@ The objective here is to cross from the grass to the water ('cause it's a hot da
 
 This is you:
 <div markdown style="margin-left: 10%; margin-top: -70px;">
-![Character Boy](https://github.com/aboutandre/frontend-nanodegree-arcade-game/blob/master/images/char-boy.png "Character Boy")
+![Character Boy](https://aboutandre.com/wp-content/uploads/2016/03/char-boy.png)
 </div>
 
 But those nasty bugs are keeping you from the water!
 
 Dodge those suckers using the arrow keys:
 <div markdown style="margin-left: 10%;">
-![Arrow Keys](https://github.com/aboutandre/frontend-nanodegree-arcade-game/blob/master/images/arrowkeys.png "Arrow Keys")
+![Arrow Keys](https://aboutandre.com/wp-content/uploads/2016/03/arrowkeys.png)
 </div>
 
 
